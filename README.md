@@ -1,6 +1,8 @@
 Inflection
 ==========
 
+[![Build Status](https://travis-ci.org/goneio/Inflection.svg?branch=master)](https://travis-ci.org/goneio/Inflection)
+
 Originally built from source long-lost to the mists of time, only closest reference I can find is here: http://fossies.org/linux/Neos/Packages/Framework/TYPO3.Kickstart/Resources/Private/PHP/Sho_Inflect.php
 
 Original Readme below:
