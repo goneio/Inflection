@@ -10,11 +10,11 @@ php:
 
 
 before_script :
-  - composer install
+  - composer install --dev
 
 script:
   - ./vendor/bin/phpcs --warning-severity=6 --standard=PSR2 src tests
-  - phpunit
+  - ./vendor/bin/phpunit
 
 notifications:
   email:
