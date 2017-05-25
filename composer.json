@@ -1,5 +1,5 @@
 {
-  "name"       : "thru.io/inflection",
+  "name"       : "gone.io/inflection",
   "description": "A library to allow for pluralisation and singularisation of words programatically.",
   "authors"    : [
     {
@@ -11,8 +11,8 @@
 
   },
   "autoload"   : {
-    "psr-0": {
-      "Thru\\Inflection\\": ""
+    "psr-4": {
+      "Gone\\Inflection\\": "src"
     }
   }
 }
