@@ -7,7 +7,7 @@
       "email": "matthew@baggett.me"
     }
   ],
-  "reoplace": {
+  "replace": {
     "thru.io/inflection": "*"
   },
   "licence": "GPL-3.0+",
