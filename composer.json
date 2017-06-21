@@ -7,6 +7,9 @@
       "email": "matthew@baggett.me"
     }
   ],
+  "reoplace": {
+    "thru.io/inflection": "*"
+  },
   "licence": "GPL-3.0+",
   "require-dev": {
     "phpunit/phpunit": "^4.8",
