@@ -23,8 +23,8 @@
   },
   "autoload"   : {
     "psr-4": {
-      "Gone\\Inflection\\": "src",
-      "Gone\\Inflection\\Tests\\": "tests"
+      "MatthewBaggett\\Inflection\\": "src",
+      "MatthewBaggett\\Inflection\\Tests\\": "tests"
     }
   }
 }

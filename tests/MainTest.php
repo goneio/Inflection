@@ -1,7 +1,7 @@
 <?php
-namespace Gone\Inflection\Tests;
+namespace MatthewBaggett\Inflection\Tests;
 
-use Gone\Inflection\Inflect;
+use MatthewBaggett\Inflection\Inflect;
 
 class MainTest extends \PHPUnit\Framework\TestCase
 {

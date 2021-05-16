@@ -1,6 +1,6 @@
 <?php
 
-namespace Gone\Inflection;
+namespace MatthewBaggett\Inflection;
 
 class Inflect
 {
