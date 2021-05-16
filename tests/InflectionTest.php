@@ -3,7 +3,7 @@ namespace MatthewBaggett\Inflection\Tests;
 
 use MatthewBaggett\Inflection\Inflect;
 
-class MainTest extends \PHPUnit\Framework\TestCase
+class InflectionTest extends \PHPUnit\Framework\TestCase
 {
     public function wordDataProvider()
     {
@@ -72,6 +72,7 @@ class MainTest extends \PHPUnit\Framework\TestCase
      */
     public function testPluraliseIf($singular, $plural)
     {
+
         $this->assertEquals("2 {$plural}", Inflect::pluralizeIf(2, $singular));
         $this->assertEquals("1 {$singular}", Inflect::pluralizeIf(1, $singular));
     }

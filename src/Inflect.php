@@ -144,7 +144,7 @@ class Inflect
     public static function pluralizeIf($count, $string)
     {
         if ($count == 1) {
-            return $count . " " . self::singularize($string);
+            return $count . " " . $string;
         } else {
             return $count . " " . self::pluralize($string);
         }
